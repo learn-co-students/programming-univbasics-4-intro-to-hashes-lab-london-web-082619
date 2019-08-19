@@ -21,17 +21,19 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
+  {key => value}
+end
+
+=begin
+def my_hash_creator(key, value)
   hash = {}
   hash.store(key, value)
   hash
 end
+=end
 
 def read_from_hash(hash, key)
-  if hash[key]
-     hash[key]
-   else
-     hash[key]
-  end
+   hash[key]
 end
 
 def update_counting_hash(hash, key)
