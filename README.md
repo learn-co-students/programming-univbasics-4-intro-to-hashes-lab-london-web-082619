@@ -1,4 +1,8 @@
-# Intro to Hashes Lab
+if shipping_manifest["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  shipping_manifest["top hat"] = 1
+end# Intro to Hashes Lab
 
 ## Learning Goals
 
